@@ -5,4 +5,4 @@ echo New account name?
 read newaccountff
 echo Owner public key of new account?
 read newownerkey
-cleos create account $creatoraccountff $newaccountff $newownerkey
+cleos system newaccount $creatoraccountff $newaccountff $newownerkey
